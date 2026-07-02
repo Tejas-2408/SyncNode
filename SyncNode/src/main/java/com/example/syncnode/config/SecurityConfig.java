@@ -1,5 +1,7 @@
 package com.example.syncnode.config;
 
+// This layer protects endpoints and creates mock users in memory for quick demo verification.
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
